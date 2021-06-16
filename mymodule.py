@@ -27,3 +27,7 @@ def esPoker(lista):
 
 def multiplicarDosNumeros(a, b):
     return a*b
+
+
+def restarDosNumeros(a, b):
+    return a-b
