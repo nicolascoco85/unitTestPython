@@ -25,3 +25,5 @@ def esPoker(lista):
             return True
     return False
 
+def multiplicarDosNumeros(a, b):
+    return a*b

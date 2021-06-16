@@ -36,6 +36,8 @@ class TestMyModule(unittest.TestCase):
     def test_esGeneralaDe3(self):
         self.assertTrue(mymodule.esGenerala([3,3,3,3,3]) == True)
 
+    def test_Multiplico2Por3ConResultado6(self):
+        self.assertEqual(mymodule.multiplicarDosNumeros(2,3),6)
 
 
 if __name__ == "__main__":
